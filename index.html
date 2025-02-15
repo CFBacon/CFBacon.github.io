@@ -3,53 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CFBacon.Inc</title>
-    <style>
-        body {
-            background-color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            flex-direction: column;
-        }
-        .button-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        input[type="button"] {
-            background-color: red;
-            color: black; /* Text color */
-            border: 2px solid black; /* Fancy border */
-            padding: 30px 40px; /* Increase padding for taller button */
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 24px; /* Increase font size */
-            margin: 20px 0; /* Increase vertical spacing between buttons */
-            cursor: pointer;
-            border-radius: 12px; /* Rounded corners */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for a 3D effect */
-            transition: transform 0.2s; /* Smooth transition for hover effect */
-        }
-        input[type="button"]:hover {
-            transform: scale(1.05); /* Slightly enlarge the button on hover */
-        }
-        h1 {
-            font-size: 36px; /* Increase font size for heading */
-            text-decoration: underline;
-            text-decoration-color: black;
-        }
-    </style>
+    <title>Basic HTML Website</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <script type="text/javascript" src="Learning.js"></script>
+    <header>
+        <h1>Welcome to chocolate freaking bacon</h1>
+    </header>
+    <main>
+        <p>This is a link website to Chocolate Freaking Bacon's socials</p>
+    </main>
     <div class="button-container">
-        <h1>Welcome to CFBacon.Inc</h1>
-        <input type="button" class="taller" value="Go to Chocolate Freaking Bacon (CFBACON website)" onclick="magic1();">
-        <input type="button" class="taller" value="CLICK TO SEE WHERE CFBACON IS GOING NEXT (CFBACON facebook)" onclick="magic2();">
+        <a href="https://www.facebook.com/profile.php?id=61569044466099" target="_blank"><button class="btn">CFBacon Facebook</button></a>
+        <a href="https://chocolatefreakingbacon.com/" target="_blank"><button class="btn">CFBacon Website</button></a>
     </div>
+    <footer>
+        <p>&copy; 2015 CFBacon</p>
+    </footer>
+    <script src="scripts/main.js"></script>
 </body>
 </html>
